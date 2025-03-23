@@ -1,4 +1,4 @@
-| [home page](https://lanayaojeda.github.io/lanayaoj-dataviz-portfolio/)) | [data viz examples](dataviz-examples) | [critique by design](critique-by-design) | [final project I](final-project-part-one) | [final project II](final-project-part-two) | [final project III](final-project-part-three) |
+| [home page](https://lanayaojeda.github.io/lanayaoj-dataviz-portfolio/)) | [data viz examples](lanayaoj-dataviz-examples) | [critique by design](lanayaoj-critique-by-design) | [final project I](lanayaoj-final-project-part-one) | [final project II](lanayaoj-final-project-part-two) | [final project III](lanayaoj-final-project-part-three) |
 
 # Telling Stories with Data | Lizeth Anaya-Ojeda
 
