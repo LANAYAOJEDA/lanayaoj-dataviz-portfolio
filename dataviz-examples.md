@@ -2,6 +2,7 @@
 
 # Data visualization examples
 
+[Trust in News Visualization](newstrust.md)
 
 **Map Visualization**  
 
