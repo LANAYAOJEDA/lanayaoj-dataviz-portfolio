@@ -52,7 +52,7 @@ After presenting my initial sketch in class, I realized several issues:
 
 ## Step five: build the solution
 
-![Your 30g Protein Receipt: Cost-Effective Choices at Checkout](Protein Source Data Viz.pdf)
+![Your 30g Protein Receipt: Cost-Effective Choices at Checkout](protein-source-data-viz.pdf)
 
 ## New Approach & Execution  
 
