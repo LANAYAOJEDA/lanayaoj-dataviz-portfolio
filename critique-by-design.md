@@ -1,59 +1,75 @@
 | [home page](https://lanayaojeda.github.io/lanayaoj-dataviz-portfolio/) | [data viz examples](dataviz-examples.md) | [critique by design](critique-by-design.md) | [final project I](final-project-part-one.md) | [final project II](final-project-part-two.md) | [final project III](final-project-part-three.md) |
 
-# Title
-Text here...
-
-_For each step below, you should document your progress as you move forward.  In terms of tone, think of the writeup as though you're keeping journal of your step-by-step process.   You should include a any insights you gained from the critique method, and what it led you to think about when considering the redesign.  You should talk about how you moved next to the sketches, and any insights you gleaned from your user feedback.  Document what you changed based on the user feedback in your redesign.  Finally, talk about what your redesigned data visualization shows, why you selected the data visualization you did, and what you attempted to show or do differently._
-
-_You can include screenshots, sketches or other artifacts with your narrative to help tell the story of how you moved through the process.  Again, make sure to avoid including any personally identifying information about your interviewees (don't list full names, etc.).  While this template serves as a guide, make sure to reference the assignment writeup on Canvas for the official guidance.  This template does not include all guidance mentioned on the assignment page._
+# Visualizing Cost-Effective Protein: A Receipt-Inspired Approach (MakeoverMonday Redesign)
 
 ## Step one: the visualization
 
-_Include link to the original data visualization (or screenshot - make sure to correctly cite your sources, etc.).  Include paragraph or two on why you selected this particular data visualization.  For obvious reasons, the data visualization you select should come from a publicly accessible source._
+![Original Visualization from MakeoverMonday](makeovermonday-reference.png)
+Source: [What Are The Cheapest High-Protein Foods? by The Bodybuilding Dietitians](https://www.thebodybuildingdietitians.com/blog/how-cost-effective-is-your-high-protein-diet)
+
+The original visualization caught my eye with its blue bars and images, making it easy to compare food items without reading the x-axis labels. The title clarified that it was comparing the price per 30g of protein, but it didn’t fully communicate cost-effectiveness over time. It simply showed that 30g of salmon costs around $4, without illustrating the savings.  
+
+The target audience seems to be fitness enthusiasts, particularly bodybuilders or dieters. While the visualization provides a basic cost comparison, it lacks depth. The most noticeable takeaway is that Quorn is the most expensive protein source, but price details are difficult to read. The inclusion of calorie information also adds clutter without contributing to the cost analysis.  
+
+For my redesign, I wanted to focus on cost-effectiveness—showing which protein sources offer the best value. I removed unnecessary details and explored alternative chart types like bubble charts and bar graphs.
 
 ## Step two: the critique
-_Don't forget to complete the Google Form found on the assignment page.  You can summarize your thoughts here._
+- The visualization immediately caught my attention with its bold blue bars and images above them, making it easy to identify the food items being compared.
+- The title was needed to clarify that the comparison was based on the cost of 30g of protein.
+- While the design was visually engaging, it failed to effectively communicate cost-effectiveness over time, as it didn’t show how savings accumulated.
+- The visualization only indicated that 30g of salmon cost around $4, without further context on cost savings.
+- The primary audience for this tool seemed to be individuals in the fitness community, especially bodybuilders or those tracking protein intake.
+- While the visualization succeeded in showing the cost of protein sources, it lacked the depth needed for it to be a truly useful tool.
+- For instance, the price of Quorn was hard to read, and the inclusion of calorie information added clutter without contributing to the overall message.
 
 ## Step three: Sketch a solution
+![sketch](sketch.png)
+
+My initial idea was to focus on the relationship between price and time—specifically, which protein sources are the most cost-effective for consuming **30g of protein per day over 30 days**. I also wanted to remove irrelevant information, like calorie counts, and explore alternative visualizations such as a **line graph or stacked bar chart** to compare costs.  
 
 ## Step four: Test the solution
 
-_Before you conduct your interviews, prepare a simple script.  Use this as a guide and as a way to take notes as you go forward. Come up with your own list of questions you want to ask for the selected visualization. Keep the questions broad so you can get the most value out of your feedback. Then, document answers to your questions here._
+Questions: 
 
-Questions to ask (modify these for your own interviews): 
+- Can you describe to me what this line chart is trying to communicate to you?
 
-- Can you tell me what you think this is?
+- What is your main takeaway from this?
 
-- Can you describe to me what this is telling you?
-
-- Is there anything you find surprising or confusing?
-
-- Who do you think is the intended audience for this?
-
-- Is there anything you would change or do differently?
+- Is there a more effective way to display this for you to understand the message?
 
 Results: 
 
-_Don't identify or share personally identifiable information (PII) about the people you spoke to._
+After presenting my initial sketch in class, I realized several issues:  
+- **The price increase was consistent and linear**, which made the trend predictable.  
+- **Both the concept and graph were confusing** for my classmates.  
+- **The visualization felt boring!** It didn’t engage or effectively communicate key insights.  
 
-
-| Question | Interview 1 | Interview 2 |
-|----------|-------------|-------------|
-|          |             |             |
-|          |             |             |
-|          |             |             |
-
-Synthesis: 
-
-_What patterns in the feedback emerge?  What did you learn from the feedback?  Based on this feedback, come up with what design changes you think might make the most sense in your final redesign._
+### First Round of Critique Insights:  
+- A **clearer legend and labeling of protein sources** would improve readability.  
+- **Distinguishing between animal-based and plant-based proteins** would help with comparison.  
+- A **budget-focused approach** could make the visualization more intuitive.  
+- A **tree map** might be a more effective way to represent "bang for your buck" over the course of a month.  
 
 ## Step five: build the solution
 
-_Include and describe your final solution here. It's also a good idea to summarize your thoughts on the process overall. When you're done with the assignment, this page should all the items mentioned in the assignment page on Canvas(a link or screenshot of the original data visualization, documentation explaining your process, a summary of your wireframes and user feedback, your final, redesigned data visualization, etc.)._
+![Your 30g Protein Receipt: Cost-Effective Choices at Checkout](Protein Source Data Viz.pdf)
+
+## New Approach & Execution  
+
+After the critique, I explored how grocery budgets and protein intake visualizations are typically represented. I came across **Susie Lu’s receipt-style visualization** ([View here](https://www.susielu.com/data-viz/reviziting-the-receipt)) and thought it was very creative. I decided to apply the same concept to my grocery store protein purchases visualization to illustrate what it costs to buy **30g of different protein sources**.  
+
+Since **Tableau’s design capabilities are limiting**, I created **bubble chart and bar graph visualizations** with my data, took screenshots, and then designed the receipt visualization in **Canva**.  
+
+### User Testing Insights  
+
+I tested the visualization with my roommates, and their feedback was positive:  
+
+- **Bar Chart & Comparison:** *"It clearly shows the most expensive protein source and makes it easy to compare others against it."*  
+- **Bubble Chart Interpretation:** *"At first, I was confused about the percentages, but then I saw the total at the bottom and assumed it represented the percentage of the total cost."*  
+
+This process helped me refine how I represent **cost-effective protein sources**, making the data more engaging and easier to interpret. The **receipt-style visualization** turned out to be an effective and relatable way to present grocery costs.  
 
 ## References
-_List any references you used here._
+- **Susie Lu** – *Reviziting the Receipt*: A creative approach to visualizing grocery costs that inspired my design. [View here](https://www.susielu.com/data-viz/reviziting-the-receipt).  
 
-## AI acknowledgements
-_If you used AI to help you complete this assignment (within the parameters of the instruction and course guidelines), detail your use of AI for this assignment here._
-
+- **The Bodybuilding Dietitians** – *How Cost-Effective is Your High-Protein Diet?*: Provided insights into evaluating protein costs. [Read here](https://www.thebodybuildingdietitians.com/blog/how-cost-effective-is-your-high-protein-diet).  
