@@ -1,36 +1,61 @@
 | [home page](https://cmustudent.github.io/tswd-portfolio-templates/) | [data viz examples](dataviz-examples.md) | [critique by design](critique-by-design.md) | [final project I](final-project-part-one.md) | [final project II](final-project-part-two.md) | [final project III](final-project-part-three.md) |
 
-# The final data story
-> Include a link to your final data story on Shorthand, Esri StoryMaps, etc. here. 
+## Part III: Final Data Story
 
-Text here!
+[Advocating for WIC in NYS]](https://preview.shorthand.com/BWU3dBDxTjTfrSqr)
 
-# Changes made since Part II
-> Include few paragraphs that reflects on changes you made since the completion of Part II. 
+---
 
-Text here!
+## Changes Made Since Part II
 
-## The audience
-> Talk about who you identified as the audience for your final data story.  Include any other information you've used that helped you narrow the focus (e.g. insights from your interviews, personas, etc.).  Note any specific adjustments you made to your final project to make it work for your audience.
+Since Part II, I made several adjustments to improve clarity, emotional resonance, and focus:
 
-Text here!
+- Made the visualization about children of immigrants more prominent to highlight the stakes earlier.
+- Shortened the narrative to be more direct and action-driven.
+- Created corresponding graphs for each key point to help readers connect data and story visually.
+- Narrowed the audience scope to focus specifically on New York State, moving away from a national WIC narrative.
 
-## Final design decisions
-> You can specifically break out your design decisions here, or include it under *Changes made since Part II* and delete this section. Talk about the design decisions you had to make along the way, and reflect on anything in particular that stands out to you that you learned working through the process.  Include any other information that helps round out your data story. 
+These changes were based on user research insights that showed a need for quicker emotional engagement and a clearer connection between personal stories and systemic issues.
 
-Text here!
+---
+
+## Audience
+
+The final audience focus is people living in New York State, particularly:
+
+- Current and potential WIC participants (young mothers, caregivers, immigrants).
+- WIC agency staff in New York who are not yet participating in WICANYS.
+- Local advocacy organizations and policymakers who influence state-level support for WIC.
+
+Insights from interviews showed that people felt a stronger emotional connection when the story and data were localized. This led me to adjust both the storytelling and the call to action to resonate more directly with a New York-based audience.
+
+---
+
+## Final Design Decisions
+
+- Moved the emotional hook (Anna’s story) to the beginning to ground the audience immediately.
+- Highlighted key statistics through visual callouts and graphs next to relevant parts of the story.
+- Structured the narrative in a Story → System → Solution format to make systemic challenges clearer earlier.
+- Developed a stronger visual metaphor around community impact (domino effect) to support the advocacy message.
+- Crafted a specific, low-barrier call to action encouraging New Yorkers to engage with local WIC advocacy efforts.
+
+---
 
 ## References
-> **You should have already included detailed references on your Shorthand story** - if so, you do not need to list them twice, unless you used additional references for specific to your writeup. Use this section to capture any additional special notes or information necessary. If there is additional information for your shorthand readers that you've placed on this page, link from Shorthand to this page. Make sure to double-check that you aren't using copyright material and that you have added / updated any citations or other content that you used to create your data story.  Make sure you have cited external sources correctly.
 
-## AI acknowledgements
-> If you used AI to help you complete this assignment (within the parameters of the instruction and course guidelines), detail your use of AI for this assignment here.
+Images/illustration selected from Unsplash and Midjourney.
 
-Text here!
+Lou, C., Adams, G., Bernstein, H., Baird, C., Feng, A., Hagerman, L., & Lei, S. (n.d.). Part of Us: A data-driven look at children of immigrants. Urban Institute. Retrieved April 21, 2025, from https://www.urban.org/features/part-us-data-driven-look-children-immigrants
 
-# Final thoughts
-> You can summarize any final thoughts / reflections that don't fit well in the previous sections here.  How did it go?  What did you run out of time for, or wish you had a chance to revisit?  What were you most excited about?  Include any final reflections as you think they might help us understand your process.  If you already included such reflections elsewhere, you can delete this section. 
+WIC data tables. Food and Nutrition Service U.S. Department of Agriculture. (n.d.). https://www.fns.usda.gov/pd/wic-program
 
-Text here!
+National WIC Association. (n.d.). 2024 State of WIC Report: Celebrating 50 years of impact. WIC Research, Policy and Practice Hub. https://thewichub.org/2024-state-of-wic-report-celebrating-50-years-of-impact/
+
+---
+
+## Final Thoughts
+
+This project helped me learn how to adjust narrative structure based on user feedback and how small design changes (like visual prominence of key stats) can have a large impact on user engagement. I wish I had a bit more time to develop an interactive element for the graphs, but overall I’m proud of how the final story better connects data, emotion, and action.
+
 
 
